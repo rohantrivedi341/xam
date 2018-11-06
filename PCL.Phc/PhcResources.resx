@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>PHC Clinical Guide</value>
+  </data>
+  <data name="CalculatorPaediatricDosages" xml:space="preserve">
+    <value>Paediatric Dosages</value>
+  </data>
+  <data name="CalculatorPaediatricDosageMedicine" xml:space="preserve">
+    <value>Medicine</value>
+  </data>
+  <data name="CalculatorPaediatricDosageFormulationOptions" xml:space="preserve">
+    <value>Formulations options</value>
+  </data>
+  <data name="CalculatorPaediatricDosageDose" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="CalculatorPaediatricDosageResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorPaediatricDosageSelectMedicine" xml:space="preserve">
+    <value>Select Medicine</value>
+  </data>
+  <data name="CalculatorPaediatricDosageSelectAgeWeightBand" xml:space="preserve">
+    <value>Select Age / Weight Band</value>
+  </data>
+  <data name="CalculatorPaediatricDosageIndications" xml:space="preserve">
+    <value>Indications</value>
+  </data>
+  <data name="CalculatorPaediatricDosageAgeWeightBand" xml:space="preserve">
+    <value>Age / Weight Band</value>
+  </data>
+  <data name="SplashTextLine1" xml:space="preserve">
+    <value>Department of Health</value>
+  </data>
+  <data name="SplashTextLine2" xml:space="preserve">
+    <value>Standard Treatment Guidelines</value>
+  </data>
+  <data name="SplashTextLine3" xml:space="preserve">
+    <value>Essential Medicines List for South Africa</value>
+  </data>
+  <data name="CalculatorPaediatricDosageStandardisedDosage" xml:space="preserve">
+    <value>Standardised Dosage</value>
+  </data>
+  <data name="CalculatorPaediatricDosageFrequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="CalculatorMedicineCostingResults" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="CalculatorMedicineCostingSelectGenericName" xml:space="preserve">
+    <value>Select Generic Name</value>
+  </data>
+  <data name="CalculatorMedicineCosting" xml:space="preserve">
+    <value>Medicine Costing</value>
+  </data>
+  <data name="CalculatorMedicineCostingBrand" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="CalculatorMedicineCostingContractNumber" xml:space="preserve">
+    <value>Contract No.</value>
+  </data>
+  <data name="CalculatorMedicineCostingDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CalculatorMedicineCostingGeneric" xml:space="preserve">
+    <value>Generic</value>
+  </data>
+  <data name="CalculatorMedicineCostingPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="CalculatorIcd10Codes" xml:space="preserve">
+    <value>ICD 10 Codes</value>
+  </data>
+  <data name="CalculatorIcd10CodesResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorIcd10CodesSelectBlock" xml:space="preserve">
+    <value>Select Block</value>
+  </data>
+  <data name="CalculatorIcd10CodesSelectChapter" xml:space="preserve">
+    <value>Select Chapter</value>
+  </data>
+  <data name="CalculatorIcd10CodesSelectCode" xml:space="preserve">
+    <value>Select Code</value>
+  </data>
+  <data name="CalculatorIcd10CodesSource" xml:space="preserve">
+    <value>Source: World Health Organization</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSelectAge" xml:space="preserve">
+    <value>Select Age</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSelectDiabetic" xml:space="preserve">
+    <value>Diabetic?</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSelectHdlCholesterol" xml:space="preserve">
+    <value>Select HDL Cholesterol</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSelectSex" xml:space="preserve">
+    <value>Select Sex</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSelectSmoker" xml:space="preserve">
+    <value>Smoker?</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSelectSystolicBp" xml:space="preserve">
+    <value>Select Systolic BP</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSelectBpTreatment" xml:space="preserve">
+    <value>BP treatment?</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSelectTotalCholesterol" xml:space="preserve">
+    <value>Select Total Cholesterol</value>
+  </data>
+  <data name="CalculatorCardiovascularRisk" xml:space="preserve">
+    <value>Cardiovascular Event Risk</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSource" xml:space="preserve">
+    <value>Source: National Standard Treatment Guidelines and Essential Medicines List South Africa, 2015. Chapter  4.1 Prevention of Ischaemic Heart Disease and Atherosclerosis</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskResultPercentageCharacteristics" xml:space="preserve">
+    <value>{0} % of patients with these characteristics will have a cardiovascular event i.e. death, myocardial infarction or stroke in the next 10 years.</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskResultHighRiskPatients" xml:space="preserve">
+    <value>Such high-risk patients will benefit from lipid lowering (statin) therapy irrespective of their baseline LDL levels. When lipid-lowering medicines are used, this is ALWAYS in conjunction with ongoing lifestyle modification.</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskResultMessage" xml:space="preserve">
+    <value>Please always consult the complete treatment guideline found in the guidelines section of the app. The guideline on 'Prevention of Ischaemic Heart Disease and Atherosclerosis' provides detailed information on lifestyle modification, full criteria for starting lipid lowering therapy and referral criteria.</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskResultLevelOfEvidence" xml:space="preserve">
+    <value>Level of Evidence: III</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskAge" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskDiabetic" xml:space="preserve">
+    <value>Diabetic</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskHdlCholesterol" xml:space="preserve">
+    <value>HDL cholesterol</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSmoker" xml:space="preserve">
+    <value>Smoker</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskSystolicBp" xml:space="preserve">
+    <value>Systolic BP</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskBpTreatment" xml:space="preserve">
+    <value>BP Treatment</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskTotalCholesterol" xml:space="preserve">
+    <value>Total cholesterol</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskCharacteristics" xml:space="preserve">
+    <value>Characteristics</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskResultCholesterolReferral" xml:space="preserve">
+    <value>The patient requires referral if the cholesterol is above 7.5 mmol/L.</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskResultOlderThan40AndDiabetic" xml:space="preserve">
+    <value>Type 2 diabetics &gt; 40 years of age qualify for statin therapy irrespective of risk score</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskReference1" xml:space="preserve">
+    <value>Framingham tables: Klug E; South African Heart Association (S A Heart); Lipid and Atherosclerosis Society of Southern Africa (LASSA). South African dyslipidaemia guideline consensus statement. SAMJ 2012 Feb 23;102(3 Pt 2):178-87 http://www.ncbi.nlm.nih.gov/pubmed/922380916</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskReference2" xml:space="preserve">
+    <value>Framingham tables: SAHA. Update on changes to South African Dyslipidaemia Guidelines, 2012. [Online, 2012][Cited 2014] Available at: http://www.saheart.org/uploads/files/Algorithm2.pdf</value>
+  </data>
+  <data name="CalculatorCardiovascularRiskReference3" xml:space="preserve">
+    <value>Framingham tables: Wilson PW, D'Agostino RB, Levy D, Belanger AM, Silbershatz H, Kannel WB. Prediction of coronary heart disease using risk factor categories. Circulation.1998 May 12;97(18):1837-47. http://www.ncbi.nlm.nih.gov/pubmed/9603539</value>
+  </data>
+</root>

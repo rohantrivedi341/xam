@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- Action Bar Generator: Action bar color -->
+  <color name="primary">#e2001a</color>
+  <!-- Action Bar Generator: Stacked color -->
+  <color name="primary_dark">#eb1f28</color>
+  <!-- Action Bar Generator: Tab indicator color / Accent color-->
+  <color name="accent">#ffffff</color>
+</resources>

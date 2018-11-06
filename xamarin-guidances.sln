@@ -1,0 +1,277 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL", "PCL\PCL.csproj", "{4E134962-835B-4382-B437-D2417C3FB5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL.DohReporting", "PCL.DohReporting\PCL.DohReporting.csproj", "{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL.Hiv", "PCL.Hiv\PCL.Hiv.csproj", "{63A727BE-680C-4995-B151-4B379CCEA269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL.Phc", "PCL.Phc\PCL.Phc.csproj", "{5D964C00-D813-447D-AB04-653D06A1211A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL.Msf", "PCL.Msf\PCL.Msf.csproj", "{D94E190A-84C1-4EB3-8758-764FBC7B82D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCL.Tb", "PCL.Tb\PCL.Tb.csproj", "{54B2EA80-C444-46FB-84C7-14FA876FB362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid", "Droid\Droid.csproj", "{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid.DohReporting", "Droid.DohReporting\Droid.DohReporting.csproj", "{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid.Hiv", "Droid.Hiv\Droid.Hiv.csproj", "{60975230-5355-47C1-87B9-B58364FD81CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid.Phc", "Droid.Phc\Droid.Phc.csproj", "{CDF41233-7686-4DAD-88F9-5AA42FE37212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid.Msf", "Droid.Msf\Droid.Msf.csproj", "{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid.Tb", "Droid.Tb\Droid.Tb.csproj", "{ED8C9C5C-3C90-470B-B314-F428347C05A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS", "iOS\iOS.csproj", "{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.DohReporting", "iOS.DohReporting\iOS.DohReporting.csproj", "{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.Hiv", "iOS.Hiv\iOS.Hiv.csproj", "{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.Phc", "iOS.Phc\iOS.Phc.csproj", "{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.Msf", "iOS.Msf\iOS.Msf.csproj", "{123C1100-7275-4E99-A7FF-11E525D4BC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS.Tb", "iOS.Tb\iOS.Tb.csproj", "{A1EEC2BB-714D-46DD-9329-1B897B959EB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PSD_Launcher", "PSD_Launcher", "{4044EA18-4681-45A8-85B1-954167C458B4}"
+	ProjectSection(SolutionItems) = preProject
+		PSD_Launcher\ic_launcher_hiv.png = PSD_Launcher\ic_launcher_hiv.png
+		PSD_Launcher\ic_launcher_hiv.psd = PSD_Launcher\ic_launcher_hiv.psd
+		PSD_Launcher\ic_launcher_msf.png = PSD_Launcher\ic_launcher_msf.png
+		PSD_Launcher\ic_launcher_msf.psd = PSD_Launcher\ic_launcher_msf.psd
+		PSD_Launcher\ic_launcher_phc.png = PSD_Launcher\ic_launcher_phc.png
+		PSD_Launcher\ic_launcher_phc.psd = PSD_Launcher\ic_launcher_phc.psd
+		PSD_Launcher\ic_launcher_tb.png = PSD_Launcher\ic_launcher_tb.png
+		PSD_Launcher\ic_launcher_tb.psd = PSD_Launcher\ic_launcher_tb.psd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PSD_Splash", "PSD_Splash", "{6EC85124-EFE1-419B-9440-4F062ED15A34}"
+	ProjectSection(SolutionItems) = preProject
+		PSD_Splash\splash.psd = PSD_Splash\splash.psd
+		PSD_Splash\splash_1024x748.png = PSD_Splash\splash_1024x748.png
+		PSD_Splash\splash_1024x768.png = PSD_Splash\splash_1024x768.png
+		PSD_Splash\splash_1536x2008.png = PSD_Splash\splash_1536x2008.png
+		PSD_Splash\splash_1536x2048.png = PSD_Splash\splash_1536x2048.png
+		PSD_Splash\splash_2048x1496.png = PSD_Splash\splash_2048x1496.png
+		PSD_Splash\splash_2048x1536.png = PSD_Splash\splash_2048x1536.png
+		PSD_Splash\splash_320x480.png = PSD_Splash\splash_320x480.png
+		PSD_Splash\splash_640x1136.png = PSD_Splash\splash_640x1136.png
+		PSD_Splash\splash_640x960.png = PSD_Splash\splash_640x960.png
+		PSD_Splash\splash_768x1004.png = PSD_Splash\splash_768x1004.png
+		PSD_Splash\splash_768x1024.png = PSD_Splash\splash_768x1024.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HIV - PHC - DOH Reporting", "HIV - PHC - DOH Reporting", "{E953C69D-0168-4347-9DA0-81492A790F29}"
+	ProjectSection(SolutionItems) = preProject
+		PSD_Splash\HIV - PHC\splash.psd = PSD_Splash\HIV - PHC\splash.psd
+		PSD_Splash\HIV - PHC\splash_1024x748.png = PSD_Splash\HIV - PHC\splash_1024x748.png
+		PSD_Splash\HIV - PHC\splash_1024x768.png = PSD_Splash\HIV - PHC\splash_1024x768.png
+		PSD_Splash\HIV - PHC\splash_1536x2008.png = PSD_Splash\HIV - PHC\splash_1536x2008.png
+		PSD_Splash\HIV - PHC\splash_1536x2048.png = PSD_Splash\HIV - PHC\splash_1536x2048.png
+		PSD_Splash\HIV - PHC\splash_2048x1496.png = PSD_Splash\HIV - PHC\splash_2048x1496.png
+		PSD_Splash\HIV - PHC\splash_2048x1536.png = PSD_Splash\HIV - PHC\splash_2048x1536.png
+		PSD_Splash\HIV - PHC\splash_320x480.png = PSD_Splash\HIV - PHC\splash_320x480.png
+		PSD_Splash\HIV - PHC\splash_640x1136.png = PSD_Splash\HIV - PHC\splash_640x1136.png
+		PSD_Splash\HIV - PHC\splash_640x960.png = PSD_Splash\HIV - PHC\splash_640x960.png
+		PSD_Splash\HIV - PHC\splash_768x1004.png = PSD_Splash\HIV - PHC\splash_768x1004.png
+		PSD_Splash\HIV - PHC\splash_768x1024.png = PSD_Splash\HIV - PHC\splash_768x1024.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PSD_Other", "PSD_Other", "{072E7434-7FF2-4710-B793-1ECD44639499}"
+	ProjectSection(SolutionItems) = preProject
+		PSD_Other\email.png = PSD_Other\email.png
+		PSD_Other\email.psd = PSD_Other\email.psd
+		PSD_Other\email_text.png = PSD_Other\email_text.png
+		PSD_Other\email_text.psd = PSD_Other\email_text.psd
+		PSD_Other\facebook.png = PSD_Other\facebook.png
+		PSD_Other\facebook.psd = PSD_Other\facebook.psd
+		PSD_Other\facebook_text.png = PSD_Other\facebook_text.png
+		PSD_Other\facebook_text.psd = PSD_Other\facebook_text.psd
+		PSD_Other\twitter.png = PSD_Other\twitter.png
+		PSD_Other\twitter.psd = PSD_Other\twitter.psd
+		PSD_Other\twitter_text.png = PSD_Other\twitter_text.png
+		PSD_Other\twitter_text.psd = PSD_Other\twitter_text.psd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug - Andoid - iPhone|Any CPU = Debug - Andoid - iPhone|Any CPU
+		Debug - Android - iPhoneSimulator|Any CPU = Debug - Android - iPhoneSimulator|Any CPU
+		Release - Android - iPhone|Any CPU = Release - Android - iPhone|Any CPU
+		Release - Android - iPhoneSimulator|Any CPU = Release - Android - iPhoneSimulator|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E134962-835B-4382-B437-D2417C3FB5B1}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E134962-835B-4382-B437-D2417C3FB5B1}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{4E134962-835B-4382-B437-D2417C3FB5B1}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E134962-835B-4382-B437-D2417C3FB5B1}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{4E134962-835B-4382-B437-D2417C3FB5B1}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{4E134962-835B-4382-B437-D2417C3FB5B1}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{4E134962-835B-4382-B437-D2417C3FB5B1}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{4E134962-835B-4382-B437-D2417C3FB5B1}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF5EA50-D5D8-4632-99C7-C88C661CD87C}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{63A727BE-680C-4995-B151-4B379CCEA269}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A727BE-680C-4995-B151-4B379CCEA269}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{63A727BE-680C-4995-B151-4B379CCEA269}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A727BE-680C-4995-B151-4B379CCEA269}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{63A727BE-680C-4995-B151-4B379CCEA269}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{63A727BE-680C-4995-B151-4B379CCEA269}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{63A727BE-680C-4995-B151-4B379CCEA269}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{63A727BE-680C-4995-B151-4B379CCEA269}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{5D964C00-D813-447D-AB04-653D06A1211A}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D964C00-D813-447D-AB04-653D06A1211A}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{5D964C00-D813-447D-AB04-653D06A1211A}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D964C00-D813-447D-AB04-653D06A1211A}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{5D964C00-D813-447D-AB04-653D06A1211A}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{5D964C00-D813-447D-AB04-653D06A1211A}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{5D964C00-D813-447D-AB04-653D06A1211A}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{5D964C00-D813-447D-AB04-653D06A1211A}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{D94E190A-84C1-4EB3-8758-764FBC7B82D6}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94E190A-84C1-4EB3-8758-764FBC7B82D6}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{D94E190A-84C1-4EB3-8758-764FBC7B82D6}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94E190A-84C1-4EB3-8758-764FBC7B82D6}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{D94E190A-84C1-4EB3-8758-764FBC7B82D6}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{D94E190A-84C1-4EB3-8758-764FBC7B82D6}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{D94E190A-84C1-4EB3-8758-764FBC7B82D6}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{D94E190A-84C1-4EB3-8758-764FBC7B82D6}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{54B2EA80-C444-46FB-84C7-14FA876FB362}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B2EA80-C444-46FB-84C7-14FA876FB362}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{54B2EA80-C444-46FB-84C7-14FA876FB362}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B2EA80-C444-46FB-84C7-14FA876FB362}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{54B2EA80-C444-46FB-84C7-14FA876FB362}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{54B2EA80-C444-46FB-84C7-14FA876FB362}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{54B2EA80-C444-46FB-84C7-14FA876FB362}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{54B2EA80-C444-46FB-84C7-14FA876FB362}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE6AF5C-7E16-4C4C-839C-722188FB0F66}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Debug - Android - iPhoneSimulator|Any CPU.Deploy.0 = Debug|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Release - Android - iPhone|Any CPU.Deploy.0 = Release|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{400C49AB-3ABA-4BC7-81C9-C988CB71BB04}.Release - Android - iPhoneSimulator|Any CPU.Deploy.0 = Release|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Debug - Android - iPhoneSimulator|Any CPU.Deploy.0 = Debug|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Release - Android - iPhone|Any CPU.Deploy.0 = Release|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{60975230-5355-47C1-87B9-B58364FD81CF}.Release - Android - iPhoneSimulator|Any CPU.Deploy.0 = Release|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Debug - Andoid - iPhone|Any CPU.Deploy.0 = Debug|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Debug - Android - iPhoneSimulator|Any CPU.Deploy.0 = Debug|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Release - Android - iPhone|Any CPU.Deploy.0 = Release|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{CDF41233-7686-4DAD-88F9-5AA42FE37212}.Release - Android - iPhoneSimulator|Any CPU.Deploy.0 = Release|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Debug - Android - iPhoneSimulator|Any CPU.Deploy.0 = Debug|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Release - Android - iPhone|Any CPU.Deploy.0 = Release|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{82E5841A-63EA-4AC5-8651-2B358B1CE1D5}.Release - Android - iPhoneSimulator|Any CPU.Deploy.0 = Release|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Debug - Android - iPhoneSimulator|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Release - Android - iPhone|Any CPU.Deploy.0 = Release|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{ED8C9C5C-3C90-470B-B314-F428347C05A0}.Release - Android - iPhoneSimulator|Any CPU.Deploy.0 = Release|Any CPU
+		{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|Any CPU
+		{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|Any CPU
+		{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}.Release - Android - iPhone|Any CPU.Build.0 = Release|Any CPU
+		{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B1D5BE-A3F4-4AB2-844C-F55A74D25C09}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|Any CPU
+		{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|iPhone
+		{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|iPhone
+		{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|iPhone
+		{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}.Release - Android - iPhone|Any CPU.Build.0 = Release|iPhone
+		{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{7579CA4E-F042-4C28-8926-FF5C33CAFD4C}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|iPhoneSimulator
+		{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|iPhone
+		{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|iPhone
+		{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|iPhone
+		{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}.Release - Android - iPhone|Any CPU.Build.0 = Release|iPhone
+		{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{4EBFEC21-F6FF-4029-8A1F-EAF0ADC869D5}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|iPhoneSimulator
+		{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|iPhone
+		{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|iPhone
+		{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|iPhone
+		{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}.Release - Android - iPhone|Any CPU.Build.0 = Release|iPhone
+		{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{ABEEE57E-9DDC-4824-8FD3-7A7A025360D7}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|iPhoneSimulator
+		{123C1100-7275-4E99-A7FF-11E525D4BC5B}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|iPhone
+		{123C1100-7275-4E99-A7FF-11E525D4BC5B}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|iPhone
+		{123C1100-7275-4E99-A7FF-11E525D4BC5B}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{123C1100-7275-4E99-A7FF-11E525D4BC5B}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{123C1100-7275-4E99-A7FF-11E525D4BC5B}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|iPhone
+		{123C1100-7275-4E99-A7FF-11E525D4BC5B}.Release - Android - iPhone|Any CPU.Build.0 = Release|iPhone
+		{123C1100-7275-4E99-A7FF-11E525D4BC5B}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{123C1100-7275-4E99-A7FF-11E525D4BC5B}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|iPhoneSimulator
+		{A1EEC2BB-714D-46DD-9329-1B897B959EB8}.Debug - Andoid - iPhone|Any CPU.ActiveCfg = Debug|iPhone
+		{A1EEC2BB-714D-46DD-9329-1B897B959EB8}.Debug - Andoid - iPhone|Any CPU.Build.0 = Debug|iPhone
+		{A1EEC2BB-714D-46DD-9329-1B897B959EB8}.Debug - Android - iPhoneSimulator|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{A1EEC2BB-714D-46DD-9329-1B897B959EB8}.Debug - Android - iPhoneSimulator|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{A1EEC2BB-714D-46DD-9329-1B897B959EB8}.Release - Android - iPhone|Any CPU.ActiveCfg = Release|iPhone
+		{A1EEC2BB-714D-46DD-9329-1B897B959EB8}.Release - Android - iPhone|Any CPU.Build.0 = Release|iPhone
+		{A1EEC2BB-714D-46DD-9329-1B897B959EB8}.Release - Android - iPhoneSimulator|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{A1EEC2BB-714D-46DD-9329-1B897B959EB8}.Release - Android - iPhoneSimulator|Any CPU.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E953C69D-0168-4347-9DA0-81492A790F29} = {6EC85124-EFE1-419B-9440-4F062ED15A34}
+	EndGlobalSection
+EndGlobal

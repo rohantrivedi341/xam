@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+    <item name="android:icon">@android:color/transparent</item>
+
+    <item name="android:textColor">@android:color/black</item>
+    <item name="android:textColorPrimary">@android:color/black</item>
+    
+    <item name="android:colorPrimary">@color/primary</item>
+    <item name="android:colorPrimaryDark">@color/primary_dark</item>
+    <item name="android:colorAccent">@color/accent</item>
+    
+    <item name="android:windowBackground">@android:color/white</item>
+    <item name="android:textColorPrimaryInverse">@android:color/white</item>
+    <item name="android:navigationBarColor">@color/primary</item>
+    
+    <item name="android:windowContentTransitions">true</item>
+    <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+    <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+
+    <item name="android:actionBarTabTextStyle">@style/ActionBarTabTextStyle.Phc</item>
+  </style>
+
+  <style name="ActionBarTabTextStyle.Phc" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+</resources>

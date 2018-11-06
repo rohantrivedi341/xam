@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Helpers:ContentPageBase xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Helpers="clr-namespace:PCL.Hiv.UI.Helpers;assembly=PCL.Hiv"
+             x:Class="PCL.Hiv.UI.ViewCalculatorAdverseReactionPathologyResult">
+  <ScrollView Padding="0">
+    <StackLayout x:Name="stackLayout" VerticalOptions="FillAndExpand" Spacing="5" />
+  </ScrollView>
+</Helpers:ContentPageBase>

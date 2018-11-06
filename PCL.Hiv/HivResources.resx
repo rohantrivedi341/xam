@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>HIV Clinical Guide</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathology" xml:space="preserve">
+    <value>Adverse Reaction Pathology</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyCalculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyDisclaimer" xml:space="preserve">
+    <value>Note that abnormalities may be caused by other drugs and/or other pathology as well. Please use your clinical discretion</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyDrugPotentiallyAbnormalities" xml:space="preserve">
+    <value>Drugs potentially causing abnormalities with this laboratory value</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGradeNoAbnormalReaction" xml:space="preserve">
+    <value>No abnormal adverse reaction</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrade1" xml:space="preserve">
+    <value>Grade 1 Mild</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrade2" xml:space="preserve">
+    <value>Grade 2 Moderate</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrade3" xml:space="preserve">
+    <value>Grade 3 Severe</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrade4" xml:space="preserve">
+    <value>Grade 4 Potentially Life Threatening</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrades" xml:space="preserve">
+    <value>Grades</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologySelectDateOfBirth" xml:space="preserve">
+    <value>Select Date of Birth</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologySelectSex" xml:space="preserve">
+    <value>Select Sex</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyFillInResults" xml:space="preserve">
+    <value>Fill in results</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyTestResultValidationParsing" xml:space="preserve">
+    <value>Test result needs to be a number</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyUln" xml:space="preserve">
+    <value>ULN</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyUlnNote" xml:space="preserve">
+    <value>Age and sex specific Upper Limit of Normal (ULN) value used for this calculation</value>
+  </data>
+  <data name="CalculatorArvRenalDosage" xml:space="preserve">
+    <value>ARV Renal Dosage</value>
+  </data>
+  <data name="CalculatorArvRenalDosageAge" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="CalculatorArvRenalDosageAgeHint" xml:space="preserve">
+    <value>years</value>
+  </data>
+  <data name="CalculatorArvRenalDosageAgeValidationParsing" xml:space="preserve">
+    <value>Age needs to be a number</value>
+  </data>
+  <data name="CalculatorArvRenalDosageAgeValidationRequired" xml:space="preserve">
+    <value>Age is a required field</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCalculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCalculateCreatinineClearance" xml:space="preserve">
+    <value>Calculate Creatinine Clearance</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCalculatedCreatinineClearance" xml:space="preserve">
+    <value>Calculated Creatinine Clearance</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCreatinine" xml:space="preserve">
+    <value>Creatinine</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCreatinineClearance" xml:space="preserve">
+    <value>Creatinine Clearance</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCreatinineClearanceUnit" xml:space="preserve">
+    <value>ml/min</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCreatinineHint" xml:space="preserve">
+    <value>µmol/L</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCreatinineValidationParsing" xml:space="preserve">
+    <value>Creatinine needs to be a number</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCreatinineValidationRequired" xml:space="preserve">
+    <value>Creatinine is a required field</value>
+  </data>
+  <data name="CalculatorArvRenalDosageDataIncorrect" xml:space="preserve">
+    <value>Cannot calculate Creatinine Clearance due to incorrect data</value>
+  </data>
+  <data name="CalculatorArvRenalDosageResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorArvRenalDosageSelectArv" xml:space="preserve">
+    <value>Select ARV</value>
+  </data>
+  <data name="CalculatorArvRenalDosageSelectDosage" xml:space="preserve">
+    <value>Select Dosage</value>
+  </data>
+  <data name="CalculatorArvRenalDosageSex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="CalculatorArvRenalDosageSexFemale" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="CalculatorArvRenalDosageSexMale" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="CalculatorArvRenalDosageSexValidationRequired" xml:space="preserve">
+    <value>Sex is a required field</value>
+  </data>
+  <data name="CalculatorArvRenalDosageWeight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="CalculatorArvRenalDosageWeightHint" xml:space="preserve">
+    <value>kilograms</value>
+  </data>
+  <data name="CalculatorArvRenalDosageWeightValidationParsing" xml:space="preserve">
+    <value>Weight needs to be a number</value>
+  </data>
+  <data name="CalculatorArvRenalDosageWeightValidationRequired" xml:space="preserve">
+    <value>Weight is a required field</value>
+  </data>
+  <data name="CalculatorDrugInteraction" xml:space="preserve">
+    <value>Drug Interaction</value>
+  </data>
+  <data name="CalculatorDrugInteractionArv" xml:space="preserve">
+    <value>ARV</value>
+  </data>
+  <data name="CalculatorDrugInteractionDisclaimer" xml:space="preserve">
+    <value>This tool shows clinically significant interactions. If a medicine is not listed this does not mean there are no interactions.
+
+© Copyright 2014 National HIV HCW Hotline, Medicines Information Centre, Division of Clinical Pharmacology, Faculty of Health Sciences, University of Cape Town.</value>
+  </data>
+  <data name="CalculatorDrugInteractionEdl" xml:space="preserve">
+    <value>Medicine</value>
+  </data>
+  <data name="CalculatorDrugInteractionInteractions" xml:space="preserve">
+    <value>Interactions</value>
+  </data>
+  <data name="CalculatorDrugInteractionInteractionsDefaultText" xml:space="preserve">
+    <value>No interaction reported</value>
+  </data>
+  <data name="CalculatorDrugInteractionManagement" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="CalculatorDrugInteractionManagementDefaultText" xml:space="preserve">
+    <value>No dosage adjustment required</value>
+  </data>
+  <data name="CalculatorDrugInteractionResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorDrugInteractionSelectArv" xml:space="preserve">
+    <value>Select ARV</value>
+  </data>
+  <data name="CalculatorDrugInteractionSelectEdl" xml:space="preserve">
+    <value>Select Medicine</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosage" xml:space="preserve">
+    <value>Paediatric ARV Dosage</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageArv" xml:space="preserve">
+    <value>ARV</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageAvailableFormulations" xml:space="preserve">
+    <value>Available Formulations</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageDosage" xml:space="preserve">
+    <value>Dosage</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageSelectArv" xml:space="preserve">
+    <value>Select ARV</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageSelectWeightGroup" xml:space="preserve">
+    <value>Select Weight Group</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageTargetDose" xml:space="preserve">
+    <value>Target Dose</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageWeightGroup" xml:space="preserve">
+    <value>Weight Group</value>
+  </data>
+  <data name="SplashTextLine1" xml:space="preserve">
+    <value>Department of Health</value>
+  </data>
+  <data name="SplashTextLine2" xml:space="preserve">
+    <value>HIV Clinical Guidelines 2015</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyDateOfBirthValidationRequired" xml:space="preserve">
+    <value>All fields (day, month, year) are required fields</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyTestResults" xml:space="preserve">
+    <value>Test results</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrade1Result" xml:space="preserve">
+    <value>This is a Grade 1 Mild adverse reaction. Continue with treatment and repeat the test. Reasses the patient within 2 weeks</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrade2Result" xml:space="preserve">
+    <value>This is a Grade 2 Moderate adverse reaction. Continue with treatment and repeat the test. Reasses the patient within 2 weeks</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrade3Result" xml:space="preserve">
+    <value>This is a Grade 3 Severe adverse reaction. The test must be repeated within 1 week and if it still remains at grade 3, all ARVs must be stopped and patient managed with the assistance of a specialist</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGrade4Result" xml:space="preserve">
+    <value>This is a Grade 4 Potentially Life Threatening adverse reaction. Please consult an expert before further management. All drugs must be stopped immediately and the patient must referred to hospital. Please review the full guideline for more detailed management and how to discontinue ARVs appropriately.</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyGradeNoAbnormalReactionResult" xml:space="preserve">
+    <value>There is no abnormal adverse reaction.</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyDisclaimerPopup" xml:space="preserve">
+    <value>All adverse events are graded from 1 to grade 4 depending on the severity of the event as well as the age and sex of the patient. The grades are colour-coded for ease of viewing as follows: Grade 1 - green, grade 2 - yellow, grade 3 - orange, grade 4 - red. 
+
+Please consult the full guideline in the ’NDOH’ section and see the chapter on ARV drug interaction, toxicity, substitution and switching. Also be advised that symptoms alone, without abnormal blood results may indicate a severe adverse reaction. Managing adverse reactions requires an individualised approach and there are many important considerations. Please seek expert consultation for advice on how to appropriately stop and recommence ARVs. Check for Hepatitis B before stopping TDF. If a patient has chronic hepatitis B, stopping TDF may lead to a fatal hepatitis flare. If Hepatitis B outcome is positive, please seek expert consultation about further management.
+
+Adverse events should be recorded and reported regularly to the National HIV and AIDS Cluster. Serious adverse events (SAEs) should be reported within 48 to 72 hours (Grade 4 or death) to the Medicines Control Council. Complete an adverse event form and submit the form to the local pharmacy service.</value>
+  </data>
+  <data name="CalculatorArvRenalDosageCalculateCreatinineClearanceDisclaimer" xml:space="preserve">
+    <value>The Cockcroft-Gault formula for estimated creatinine clearance is used for the above calculation.
+Formula: eCcr = ((140 - Age) * Weight (in kilograms) x Constant)) / (Serum creatinine in µmol/L)
+Constant: 1.23 for men and 1.04 for women.</value>
+  </data>
+  <data name="CalculatorArvRenalDosageSource" xml:space="preserve">
+    <value>Source: SOUTHERN AFRICAN HIV CLINICIANS SOCIETY. Autumn 2008. Guideline for renal replacement therapy in HIV-infected individuals in South Africa.</value>
+  </data>
+  <data name="CalculatorPaediatricArvDosageSource" xml:space="preserve">
+    <value>Source: National consolidated guidelines for the prevention of mother-to-child transmission of HIV (PMTCT) and the management of HIV in children, adolescents and adults 2015. Dosages compiled by the Child and Adolescent Committee of the SA HIV Clinicians Society in collaboration with the Department of Health.</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyUlnUsedForCalculation" xml:space="preserve">
+    <value>Used ULN value is {0}</value>
+  </data>
+  <data name="CalculatorAdverseReactionPathologyDateOfBirthValidationParsing" xml:space="preserve">
+    <value>Filled in date is not possible</value>
+  </data>
+  <data name="CalculatorArvRenalDosageAgeValidationOnlyForAdults" xml:space="preserve">
+    <value>This calculation only applies to adults. Minimum age is 15 years.</value>
+  </data>
+  <data name="CalculatorArvRenalDosageResultAsterisk" xml:space="preserve">
+    <value>* Administer either the daily dose or one of the daily doses after haemodialysis</value>
+  </data>
+  <data name="CalculatorArvRenalDosageDisclaimer" xml:space="preserve">
+    <value>This result does not apply to children and pregnant women.</value>
+  </data>
+</root>

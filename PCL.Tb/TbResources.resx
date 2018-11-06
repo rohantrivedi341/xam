@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>TB Clinical Guide</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosages" xml:space="preserve">
+    <value>Paediatric DS-TB Dosages</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageDrug" xml:space="preserve">
+    <value>Drug</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageAvailableFormulations" xml:space="preserve">
+    <value>Available Formulations</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageDosage" xml:space="preserve">
+    <value>Dosage</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageSelectDrug" xml:space="preserve">
+    <value>Select Drug</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageSelectWeightGroup" xml:space="preserve">
+    <value>Select Weight Group</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageTargetDose" xml:space="preserve">
+    <value>Target Dose</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageWeightGroup" xml:space="preserve">
+    <value>Weight Group</value>
+  </data>
+  <data name="SplashTextLine1" xml:space="preserve">
+    <value>Department of Health</value>
+  </data>
+  <data name="SplashTextLine2" xml:space="preserve">
+    <value>TB Clinical Guidelines 2015</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageSource" xml:space="preserve">
+    <value>Guidelines for the Management of Tuberculosis in Children 2014.</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageCategory" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosage" xml:space="preserve">
+    <value>Dosage</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageMaximumDailyDose" xml:space="preserve">
+    <value>Maximum Daily Dose</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageSelectCategory" xml:space="preserve">
+    <value>Select Category</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosagePhase" xml:space="preserve">
+    <value>Phase</value>
+  </data>
+  <data name="CalculatorPaediatricDsTbDosageSelectPhase" xml:space="preserve">
+    <value>Select phase</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageAvailableFormulations" xml:space="preserve">
+    <value>Available Formulations</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageDosage" xml:space="preserve">
+    <value>Dosage</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageDrug" xml:space="preserve">
+    <value>Drug</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosagePhase" xml:space="preserve">
+    <value>Phase</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageSource" xml:space="preserve">
+    <value>National Tuberculosis Management Guidelines 2014.</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageTargetDose" xml:space="preserve">
+    <value>Target Dose</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageWeightGroup" xml:space="preserve">
+    <value>Weight Group</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosages" xml:space="preserve">
+    <value>Adult DS-TB Dosages</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageSelectDrug" xml:space="preserve">
+    <value>Select Drug</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageSelectPhase" xml:space="preserve">
+    <value>Select Phase</value>
+  </data>
+  <data name="CalculatorAdultDsTbDosageSelectWeightGroup" xml:space="preserve">
+    <value>Select Weight Group</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapy" xml:space="preserve">
+    <value>Adult Isoniazide Preventive Therapy</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapyManagement" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapyNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapyArtTreatment" xml:space="preserve">
+    <value>On ART Treatment</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapyArtTreatmentNot" xml:space="preserve">
+    <value>Not on ART Treatment</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapyResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapySelectArtTreatment" xml:space="preserve">
+    <value>Select ART Treatment</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapySelectSize" xml:space="preserve">
+    <value>Select Size</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapySelectTstAvailble" xml:space="preserve">
+    <value>Select if TST is available</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapySize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapyTstAvailable" xml:space="preserve">
+    <value>TST available</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapyTstAvailableNot" xml:space="preserve">
+    <value>TST not available</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapyYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="CalculatorAdultIsoniazidePreventiveTherapySource" xml:space="preserve">
+    <value>Source: Unknown</value>
+  </data>
+  <data name="CalculatorPaediatricIsoniazidePreventiveTherapy" xml:space="preserve">
+    <value>Paediatric Isoniazide Preventive Therapy</value>
+  </data>
+  <data name="CalculatorPaediatricIsoniazidePreventiveTherapyAvailableFormulations" xml:space="preserve">
+    <value>Available Formulations</value>
+  </data>
+  <data name="CalculatorPaediatricIsoniazidePreventiveTherapyDosage" xml:space="preserve">
+    <value>Dosage</value>
+  </data>
+  <data name="CalculatorPaediatricIsoniazidePreventiveTherapySelectWeightGroup" xml:space="preserve">
+    <value>Select Weight Group</value>
+  </data>
+  <data name="CalculatorPaediatricIsoniazidePreventiveTherapyTargetDose" xml:space="preserve">
+    <value>Target dose</value>
+  </data>
+  <data name="CalculatorPaediatricIsoniazidePreventiveTherapyWeightGroup" xml:space="preserve">
+    <value>Weight Group</value>
+  </data>
+  <data name="CalculatorPaediatricIsoniazidePreventiveTherapyResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorPaediatricIsoniazidePreventiveTherapySource" xml:space="preserve">
+    <value>Guidelines for the Management of Tuberculosis in Children 2014.</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateSelectTreatmentDate" xml:space="preserve">
+    <value>Treatment Start Date</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateTreatmentDateValidationParsing" xml:space="preserve">
+    <value>Filled in date is not possible</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateTreatmentDateValidationRequired" xml:space="preserve">
+    <value>All fields (day, month, year) are required fields</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateSource" xml:space="preserve">
+    <value>Source: unknown</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateTreatmentDate" xml:space="preserve">
+    <value>Treatment Date</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDate" xml:space="preserve">
+    <value>TB Treatment Follow Up Date</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateNextAppointmentOver" xml:space="preserve">
+    <value>Next appointment over</value>
+  </data>
+  <data name="CalculatorBmi" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="CalculatorBmiLength" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="CalculatorBmiLengthUnit" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="CalculatorBmiMass" xml:space="preserve">
+    <value>Mass</value>
+  </data>
+  <data name="CalculatorBmiMassUnit" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="CalculatorBmiLengthValidationParsing" xml:space="preserve">
+    <value>Filled in length is not possible</value>
+  </data>
+  <data name="CalculatorBmiMassValidationParsing" xml:space="preserve">
+    <value>Filled in mass is not possible</value>
+  </data>
+  <data name="CalculatorBmiFormula" xml:space="preserve">
+    <value>BMI = (Weight in Kilograms / (Height in Meters x Height in Meters))</value>
+  </data>
+  <data name="CalculatorBmiResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateEmailAddress" xml:space="preserve">
+    <value>info@openmedicineproject.org</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateEmailBody" xml:space="preserve">
+    <value>Hello,
+
+See the attached file for the treatment dates.
+
+Regards,
+TB Clinical Guide</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateEmailSubject" xml:space="preserve">
+    <value>TB Treatment dates</value>
+  </data>
+  <data name="CalculatorTbTreatmentFollowUpDateToday" xml:space="preserve">
+    <value>Treatment started today</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDate" xml:space="preserve">
+    <value>MDR Treatment Follow Up Date</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateEmailAddress" xml:space="preserve">
+    <value>info@openmedicineproject.org</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateEmailBody" xml:space="preserve">
+    <value>Hello,
+
+See the attached file for the treatment dates.
+
+Regards,
+TB Clinical Guide</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateEmailSubject" xml:space="preserve">
+    <value>TB Treatment dates</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateNextAppointmentOver" xml:space="preserve">
+    <value>Next appointment over</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateSelectTreatmentDate" xml:space="preserve">
+    <value>Treatment Start Date</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateSource" xml:space="preserve">
+    <value>Source: unknown</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateToday" xml:space="preserve">
+    <value>Treatment started today</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateTreatmentDate" xml:space="preserve">
+    <value>Treatment Date</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateTreatmentDateValidationParsing" xml:space="preserve">
+    <value>Filled in date is not possible</value>
+  </data>
+  <data name="CalculatorMdrTreatmentFollowUpDateTreatmentDateValidationRequired" xml:space="preserve">
+    <value>All fields (day, month, year) are required fields</value>
+  </data>
+  <data name="CalculatorDrugInteraction" xml:space="preserve">
+    <value>Drug Interaction</value>
+  </data>
+  <data name="CalculatorDrugInteractionArv" xml:space="preserve">
+    <value>ARV</value>
+  </data>
+  <data name="CalculatorDrugInteractionDisclaimer" xml:space="preserve">
+    <value>This tool shows clinically significant interactions. If a medicine is not listed this does not mean there are no interactions.
+
+© Copyright 2014 National HIV HCW Hotline, Medicines Information Centre, Division of Clinical Pharmacology, Faculty of Health Sciences, University of Cape Town.</value>
+  </data>
+  <data name="CalculatorDrugInteractionEdl" xml:space="preserve">
+    <value>Medicine</value>
+  </data>
+  <data name="CalculatorDrugInteractionInteractions" xml:space="preserve">
+    <value>Interactions</value>
+  </data>
+  <data name="CalculatorDrugInteractionInteractionsDefaultText" xml:space="preserve">
+    <value>No interaction reported</value>
+  </data>
+  <data name="CalculatorDrugInteractionManagement" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="CalculatorDrugInteractionManagementDefaultText" xml:space="preserve">
+    <value>No dosage adjustment required</value>
+  </data>
+  <data name="CalculatorDrugInteractionResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CalculatorDrugInteractionSelectArv" xml:space="preserve">
+    <value>Select ARV</value>
+  </data>
+  <data name="CalculatorDrugInteractionSelectEdl" xml:space="preserve">
+    <value>Select Medicine</value>
+  </data>
+</root>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Helpers:ContentPageBase xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Helpers="clr-namespace:PCL.UI.Helpers;assembly=PCL"
+             xmlns:CustomViews="clr-namespace:PCL.UI.CustomViews;assembly=PCL"
+             x:Class="PCL.UI.ViewImage">
+  <CustomViews:CV_WebViewImage x:Name="webView" />
+</Helpers:ContentPageBase>

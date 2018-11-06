@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Xamarin.Forms.3.3.0.912540\build\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.3.3.0.912540\build\Xamarin.Forms.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E134962-835B-4382-B437-D2417C3FB5B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCL</RootNamespace>
+    <AssemblyName>PCL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(OS)' != 'Unix'">
+    <CscToolPath>$(MSBuildProgramFiles32)\MSBuild\14.0\Bin</CscToolPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Common\Attachment.cs" />
+    <Compile Include="Common\Interface\IEntity.cs" />
+    <Compile Include="Common\Favorite.cs" />
+    <Compile Include="Common\ItemCalculator.cs" />
+    <Compile Include="Common\ItemCalculatorLink.cs" />
+    <Compile Include="Common\Enum\ItemCalculatorLinkType.cs" />
+    <Compile Include="Common\ItemContact.cs" />
+    <Compile Include="Common\ItemContactNumber.cs" />
+    <Compile Include="Common\ItemPage.cs" />
+    <Compile Include="Common\Label.cs" />
+    <Compile Include="Common\Section.cs" />
+    <Compile Include="Common\Enum\SectionType.cs" />
+    <Compile Include="Common\SpecialPage.cs" />
+    <Compile Include="Common\Enum\SpecialPageType.cs" />
+    <Compile Include="Common\StructureItem.cs" />
+    <Compile Include="Common\Enum\StructureItemType.cs" />
+    <Compile Include="DependencyServices\IDependencyApplicationDatabase.cs" />
+    <Compile Include="DependencyServices\IDependencyPlatformGeneral.cs" />
+    <Compile Include="DependencyServices\IDependencyPlatformPersistentStorage.cs" />
+    <Compile Include="Repository\Base\BaseRepository.cs" />
+    <Compile Include="Database\SQLiteConnectionDatabase.cs" />
+    <Compile Include="Repository\FavoriteRepository.cs" />
+    <Compile Include="Repository\ItemCalculatorLinkRepository.cs" />
+    <Compile Include="Repository\ItemContactNumberRepository.cs" />
+    <Compile Include="Repository\ItemContactRepository.cs" />
+    <Compile Include="Repository\ItemPageRepository.cs" />
+    <Compile Include="Repository\LabelRepository.cs" />
+    <Compile Include="Repository\SectionRepository.cs" />
+    <Compile Include="Repository\SpecialPageRepository.cs" />
+    <Compile Include="Repository\StructureItemRepository.cs" />
+    <Compile Include="UI\CustomViews\CV_ListView.cs" />
+    <Compile Include="UI\Helpers\ContentPageBase.cs" />
+    <Compile Include="UI\Helpers\MessagingCenterConstants.cs" />
+    <Compile Include="UI\Helpers\MessagingCenterMessage.cs" />
+    <Compile Include="UI\Helpers\PlatformStrings.cs" />
+    <Compile Include="UI\CustomViews\CV_ButtonDisableFocus.cs" />
+    <Compile Include="UI\Helpers\WebViewHandler.cs" />
+    <Compile Include="UI\Templates\TemplateSpace.xaml.cs">
+      <DependentUpon>TemplateSpace.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Templates\TemplateLine.xaml.cs">
+      <DependentUpon>TemplateLine.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Templates\TemplateRow2.xaml.cs">
+      <DependentUpon>TemplateRow2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Templates\TemplateColumn3.xaml.cs">
+      <DependentUpon>TemplateColumn3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Templates\TemplateColumn1.xaml.cs">
+      <DependentUpon>TemplateColumn1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Templates\TemplateColumn2.xaml.cs">
+      <DependentUpon>TemplateColumn2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Templates\Cells\TextButtonCell.cs" />
+    <Compile Include="UI\Templates\Views\BaseView.cs" />
+    <Compile Include="UI\Templates\Views\ImageView.cs" />
+    <Compile Include="UI\Templates\Views\ButtonView.cs" />
+    <Compile Include="UI\Templates\Views\SwitchView.cs" />
+    <Compile Include="UI\Templates\Views\PickerView.cs" />
+    <Compile Include="UI\Templates\Views\Enum\LabelDisplayType.cs" />
+    <Compile Include="UI\Templates\Views\EntryView.cs" />
+    <Compile Include="UI\Templates\Views\LabelView.cs" />
+    <Compile Include="ViewModels\ImageView.cs" />
+    <Compile Include="UI\Templates\Views\Enum\LabelInteractionType.cs" />
+    <Compile Include="DependencyServices\IDependencyApplicationGeneral.cs" />
+    <Compile Include="DependencyServices\IDependencyApplicationStyle.cs" />
+    <Compile Include="DependencyServices\IDependencyApplicationUI.cs" />
+    <Compile Include="DependencyServices\IDependencyPlatformGoogleAnalytics.cs" />
+    <Compile Include="DependencyServices\IDependencyPlatformIO.cs" />
+    <Compile Include="DependencyServices\IDependencyPlatformOpenExternal.cs" />
+    <Compile Include="DependencyServices\IDependencyApplicationUpdateContent.cs" />
+    <Compile Include="Services\UpdateContentService.cs" />
+    <Compile Include="PCLResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PCLResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CustomViews\CV_WebView.cs" />
+    <Compile Include="UI\CustomViews\CV_WebViewImage.cs" />
+    <Compile Include="UI\Helpers\ToolbarCommand.cs" />
+    <Compile Include="UI\Templates\Cells\TextDefaultCell.cs" />
+    <Compile Include="UI\ViewImage.xaml.cs">
+      <DependentUpon>ViewImage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewItemContact.xaml.cs">
+      <DependentUpon>ViewItemContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewItemPage.xaml.cs">
+      <DependentUpon>ViewItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewItemCalculatorLink.xaml.cs">
+      <DependentUpon>ViewItemCalculatorLink.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewSpecialPage.xaml.cs">
+      <DependentUpon>ViewSpecialPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewSearch.xaml.cs">
+      <DependentUpon>ViewSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewSplash.xaml.cs">
+      <DependentUpon>ViewSplash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewStructureItemList.xaml.cs">
+      <DependentUpon>ViewStructureItemList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ViewMain.xaml.cs">
+      <DependentUpon>ViewMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\UpdateContentLatest.cs" />
+    <Compile Include="ViewModels\UpdateContentLatestStore.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PCLResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PCLResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ViewMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ViewStructureItemList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ViewItemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ViewItemContact.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ViewSplash.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ViewImage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ViewSearch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ViewSpecialPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="JetBrains.Annotations.PCL328, Version=8.0.5.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLite.Net-PCL-Silverlight.2.5.3\lib\portable-net45+sl5+wp8+win8\JetBrains.Annotations.PCL328.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wp8+wpa81\Microsoft.Threading.Tasks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net45+win8+wp8+wpa81\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.3.2.0\lib\netstandard1.0\Plugin.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity.Abstractions, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.3.2.0\lib\netstandard1.0\Plugin.Connectivity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net, Version=1.0.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\sqlite-net-pcl.1.0.11\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLite-net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SQLite.Net, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLite.Net-PCL-Silverlight.2.5.3\lib\portable-net45+sl5+wp8+win8\SQLite.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.Net.Async, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLite.Net-PCL-Silverlight.2.5.3\lib\portable-net45+sl5+wp8+win8\SQLite.Net.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCL.raw, Version=0.8.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCL.raw_basic.0.8.2\lib\portable-net45+netcore45+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCL.raw.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=3.9.85.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Compression.3.9.85\lib\portable-net45+win8+wp8+wpa81\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.3.3.0.912540\lib\netstandard1.0\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Maps, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.Maps.3.3.0.912540\lib\netstandard1.0\Xamarin.Forms.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Maps.Design, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.Maps.3.3.0.912540\lib\netstandard1.0\Xamarin.Forms.Maps.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.3.3.0.912540\lib\netstandard1.0\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.3.3.0.912540\lib\netstandard1.0\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Xfinium.Pdf.Pcl">
+      <HintPath>DLLs\Xfinium.Pdf.Pcl.dll</HintPath>
+    </Reference>
+    <Reference Include="ExternalMaps.Plugin, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Xam.Plugin.ExternalMaps.1.0.5\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\ExternalMaps.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="ExternalMaps.Plugin.Abstractions, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Xam.Plugin.ExternalMaps.1.0.5\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\ExternalMaps.Plugin.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\ic_logo_omp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ViewItemCalculatorLink.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Templates\TemplateColumn2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Templates\TemplateColumn1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Templates\TemplateColumn3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Templates\TemplateRow2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Templates\TemplateLine.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\Templates\TemplateSpace.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\ic_loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLs\Xfinium.Pdf.Pcl.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.3.3.0.912540\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.3.3.0.912540\build\Xamarin.Forms.props'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.3.3.0.912540\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.3.3.0.912540\build\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.3.3.0.912540\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.3.3.0.912540\build\Xamarin.Forms.targets')" />
+</Project>
